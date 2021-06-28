@@ -42,8 +42,10 @@ Understanding the dataset
 - We see that the Random Forest gives the best accuracy.
 ![Screenshot (409)](https://user-images.githubusercontent.com/69420616/123617483-eb1e8400-d824-11eb-8aa7-cafef0641bb1.png)
 
+
 **Creating a pickle file to dump the model**
 ![Screenshot (410)](https://user-images.githubusercontent.com/69420616/123617815-43558600-d825-11eb-80fc-d4bfb068decd.png)
+
 
 **Testing the model with tweets inputs**
 - Now that we have dumped the model using pickle, i have created HTML page for tweet input.
