@@ -17,3 +17,4 @@
 Understanding the dataset
  - Let's read the context of the dataset to understand the problem statement. 
  - In the training data, tweets are labeled '0' if they are associated with a positive sentiment. Otherwise, tweets are labeled '1' for a negative sentiment. 
+![image](https://user-images.githubusercontent.com/69420616/123614701-31beaf00-d822-11eb-9203-eb61edc29b46.png)
