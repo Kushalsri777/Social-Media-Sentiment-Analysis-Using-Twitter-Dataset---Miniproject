@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Twitter Sentiment Analysis</title>
+  <style>
+    body {
+
+      background: url("C:/Users/Yash/Desktop/kushal/static/images/cc2.PNG") no-repeat center center fixed;
+
+      background-color: #AED6F1;
+
+
+
+      background-image: url('static/images/SENT.PNG');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    .container {
+      width: 500;
+      position: absolute;
+
+      center: 4;
+      margin: 20px;
+      max-width: 400px;
+      border-style: groove;
+      border: 2px groove;
+      border-radius: 8px;
+      padding: 20px;
+      background-color: #D1F2EB;
+    }
+
+    .button {
+
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: white;
+      font-size: 16px;
+      border-radius: 12px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login">
+
+    <h1 style="text-align:left;"> <b>
+        <font size="8" color="#283747"> &nbsp&nbsp&nbspTwitter Sentiment Analysis.. </font>
+      </b></h1>
+
+
+
+    <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method="post" , class="container">
+
+
+
+
+
+      
+        <big>Enter the Tweet :&nbsp&nbsp&nbsp&nbsp&nbsp</big> <input type="text" name="fareinc" 
+          required="required" /><br><br>
+
+
+
+        <br>
+
+
+        <button type="submit" class="button"><b>Predict... </b></button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+  <big><big><big><big><a href="creditcard.html" <p style="text-align:right;"> <b>
+              <font face="terminal" size=20 color="#420420">{{ prediction_text }}</font>
+            </b></p></a>
+
+        </big></big></big></big>
+
+</body>
+
+</html>
