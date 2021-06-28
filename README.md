@@ -44,6 +44,8 @@ Understanding the dataset
 
 
 **Creating a pickle file to dump the model**
+- Now we create a Vectorizer.pickle file to vectorize tweets
+- And a classification.model to save the model
 ![Screenshot (410)](https://user-images.githubusercontent.com/69420616/123617815-43558600-d825-11eb-80fc-d4bfb068decd.png)
 
 
